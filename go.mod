@@ -1,3 +1,3 @@
-module monopoly+-app
+module monopolyApp
 
 go 1.21.3

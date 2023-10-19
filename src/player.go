@@ -1,7 +1,20 @@
-package game
+package monopoly
 
-type player struct {
-	name   string
-	score  int
-	number int
+import "fmt"
+
+var money int
+var properties Proterty
+var Location Square
+
+func PurchaseProperty() bool {
+	return true
+}
+func SellProperty() bool {
+	return true
+}
+func Move() int {
+	return 0
+}
+func ViewPlayer() {
+	fmt.Print("viewPLayer Fucntion")
 }
